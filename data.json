@@ -1,0 +1,14 @@
+[
+  {
+    "product_name": "shoe",
+    "product_color": "black"
+  },
+  {
+    "product_name": "Apple",
+    "product_color": "red"
+  },
+  {
+    "product_name": "printer",
+    "product_color": "white"
+  }
+]

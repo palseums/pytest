@@ -7,7 +7,7 @@ def test_param011(test_input):
     assert test_input > 50
 
 
-@pytest.mark.parametrize("inp,out",[(2,4),(3,27),(4,256)])
+@pytest.mark.parametrize("inp,out",[(2,4),(3,27),(4,256)],ids=["Iteration1","Iteration2","Iteration3"])
 def test_param02(inp,out):
     assert (inp ** inp) == out
 
